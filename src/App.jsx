@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import ToggleSection from "./components/ToggleSection";
 
+
 function App() {
   const [cart, setCart] = useState([]);
   const [view, setView] = useState("products");
