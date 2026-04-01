@@ -10,6 +10,7 @@ import Cart from "./components/Cart";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
+import CTA from "./components/CTA";
 
 
 // Toast
@@ -77,6 +78,7 @@ function App() {
        {/* Extra Sections */}
       <Steps />
       <Pricing />
+      <CTA />     
       <Footer />
 
 

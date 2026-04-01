@@ -58,5 +58,27 @@
     "tagType": "New",
     "features": ["Blog writing", "SEO optimized", "Multiple tones"],
     "icon": "✍️"
+  },
+
+  {
+    "id": 7,
+    "name": "Task Manager",
+    "description": "Organize and track your daily tasks",
+    "price": 9,
+    "period": "monthly",
+    "tagType": "Popular",
+    "features": ["To-do lists", "Reminders", "Progress tracking"],
+    "icon": "📋"
+  },
+  {
+    "id": 8,
+    "name": "Social Media Scheduler",
+    "description": "Plan and automate your posts",
+    "price": 18,
+    "period": "monthly",
+    "tagType": "New",
+    "features": ["Post scheduling", "Multi-platform support", "Analytics"],
+    "icon": "📅"
   }
+
 ]
