@@ -1,42 +1,46 @@
 const Stats = () => {
   return (
-    <div className="px-6 md:px-12 py-16 bg-[#020617]">
+    <div className="bg-[#020617]">
 
-      
-      <div className="mb-10 text-center">
-        <h2 className="text-2xl font-bold text-white md:text-3xl">
-          Trusted by Thousands </h2>
-        <p className="mt-2 text-sm text-gray-400 md:text-base">
-          Join a growing community using our platform daily
-        </p>
-      </div>
+      {/* 🌈 Softer Gradient */}
+      <div className="w-full bg-gradient-to-r from-purple-500 to-indigo-600">
 
-      
-      <div className="grid grid-cols-1 gap-6 text-center sm:grid-cols-2 md:grid-cols-3">
+        <div className="px-4 py-14 sm:px-6 md:px-12">
 
-        
+          <div className="grid grid-cols-1 text-center divide-y sm:grid-cols-2 md:grid-cols-3 sm:divide-y-0 md:divide-x divide-white/20">
 
-        <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
-          <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            50K+
-          </h2>
-          <p className="mt-2 text-gray-400">Active Users </p>
-        </div>
+            {/* Item 1 */}
+            <div className="py-6 md:py-10">
+              <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+                50K+
+              </h2>
+              <p className="mt-2 text-sm text-purple-100 md:text-base">
+                Active Users
+              </p>
+            </div>
 
-        
-        <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
-          <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            200+
-          </h2>
-          <p className="mt-2 text-gray-400">Premium Tools </p>
-        </div>
+            {/* Item 2 */}
+            <div className="py-6 md:py-10">
+              <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+                200+
+              </h2>
+              <p className="mt-2 text-sm text-purple-100 md:text-base">
+                Premium Tools
+              </p>
+            </div>
 
-        
-        <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
-          <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            4.9
-          </h2>
-          <p className="mt-2 text-gray-400">Rating</p>
+            {/* Item 3 */}
+            <div className="py-6 md:py-10">
+              <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+                4.9
+              </h2>
+              <p className="mt-2 text-sm text-purple-100 md:text-base">
+                Rating
+              </p>
+            </div>
+
+          </div>
+
         </div>
 
       </div>
