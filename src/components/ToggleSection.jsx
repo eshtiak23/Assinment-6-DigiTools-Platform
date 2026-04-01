@@ -2,7 +2,7 @@ const ToggleSection = ({ view, setView, cart = [] }) => {
   return (
     <div className="flex justify-center gap-4 py-10 bg-[#020617]">
 
-      {/* Products Button */}
+    
       <button
         onClick={() => setView("products")}
         className={`px-6 py-2 rounded transition-all ${
@@ -14,7 +14,7 @@ const ToggleSection = ({ view, setView, cart = [] }) => {
         Products
       </button>
 
-      {/* Cart Button with COUNT */}
+      {/* Cart Button with CounT Section */}
       <button
         onClick={() => setView("cart")}
         className={`relative px-6 py-2 rounded transition-all ${
