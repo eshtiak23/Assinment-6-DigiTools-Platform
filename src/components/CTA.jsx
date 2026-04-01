@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <div className="px-6 py-20 text-center text-white bg-gradient-to-r from-purple-600 to-pink-500">
+    <div className="px-6 py-20 text-center text-white bg-linear-to-r from-purple-600 to-pink-500">
 
       <h2 className="mb-4 text-3xl font-bold md:text-4xl">
         Ready To Transform Your Workflow?

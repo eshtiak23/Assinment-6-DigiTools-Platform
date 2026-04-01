@@ -79,6 +79,20 @@
     "tagType": "New",
     "features": ["Post scheduling", "Multi-platform support", "Analytics"],
     "icon": "📅"
-  }
+  },
+  {
+  "id": 9,
+  "name": "Video Editor Pro",
+  "description": "Edit and export high-quality videos بسهولة",
+  "price": 25,
+  "period": "monthly",
+  "tagType": "Popular",
+  "features": [
+    "4K video editing",
+    "Drag & drop timeline",
+    "Built-in effects & transitions"
+  ],
+  "icon": "🎬"
+}
 
 ]

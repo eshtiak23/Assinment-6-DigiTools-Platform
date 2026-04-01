@@ -16,7 +16,8 @@ const Banner = () => {
         </h1>
 
         <p className="mt-4 text-gray-400"> Access premium AI tools, design assets, templates, and productivity
-          software — all in one place. Work smarter, faster, and better.</p>
+software—all in one place. Start creating faster today.Explore Products
+ </p>
 
         {/* Buttons Section In Bannert */}
 

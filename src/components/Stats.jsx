@@ -18,7 +18,7 @@ const Stats = () => {
 
         <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
           <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            10K+
+            50K+
           </h2>
           <p className="mt-2 text-gray-400">Active Users </p>
         </div>
@@ -26,17 +26,17 @@ const Stats = () => {
         
         <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
           <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            500+
+            200+
           </h2>
-          <p className="mt-2 text-gray-400">Tools Available</p>
+          <p className="mt-2 text-gray-400">Premium Tools </p>
         </div>
 
         
         <div className="bg-[#0F172A] p-8 rounded-xl border border-gray-800 hover:border-purple-500 transition">
           <h2 className="text-4xl font-bold text-purple-500 md:text-5xl">
-            1K+
+            4.9
           </h2>
-          <p className="mt-2 text-gray-400">Positive Reviews</p>
+          <p className="mt-2 text-gray-400">Rating</p>
         </div>
 
       </div>

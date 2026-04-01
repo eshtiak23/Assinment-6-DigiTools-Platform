@@ -8,8 +8,7 @@ const Footer = () => {
         <div>
           <h2 className="mb-3 text-xl font-bold text-white">DigiTools</h2>
           <p className="text-sm">
-            Premium digital tools for creators, professionals, and businesses.
-          </p>
+            Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools. </p>
         </div>
 
 

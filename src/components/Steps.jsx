@@ -12,7 +12,7 @@ const Steps = () => {
       </p>
 
 
-      {/* Cards */}
+      {/* Cards Section */}
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
 
@@ -27,8 +27,7 @@ const Steps = () => {
 
           <h3 className="text-xl font-semibold">Start Creating</h3>
           <p className="mt-2 text-sm text-gray-400">
-            Download and start using tools instantly.
-          </p>
+            Download and start using your premium tools immediately.</p>
         </div>
 
 
@@ -46,7 +45,7 @@ const Steps = () => {
 
           <h3 className="text-xl font-semibold">Choose Products</h3>
           <p className="mt-2 text-sm text-gray-400">
-            Browse tools and pick what fits your needs.
+            Browse our catalog and select the tools that fit your needs.
           </p>
         </div>
 
@@ -64,7 +63,7 @@ const Steps = () => {
 
           <h3 className="text-xl font-semibold">Create Account</h3>
           <p className="mt-2 text-sm text-gray-400">
-            Sign up for free in seconds. No credit card required.
+            Sign up for free in seconds. No credit card required to get started.
           </p>
         </div>
 

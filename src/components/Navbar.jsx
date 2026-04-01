@@ -29,7 +29,7 @@ const Navbar = ({ cart = [] }) => {
           {/* Cart Icon Section (⭐) */}
           <div className="relative text-xl cursor-pointer">
             🛒
-            <span className="absolute -top-2 -right-3 bg-purple-600 text-white text-xs px-2 py-[2px] rounded-full">
+            <span className="absolute -top-2 -right-3 bg-purple-600 text-white text-xs px-2 py-0.5 rounded-full">
               {cart.length}
             </span>
           </div>
