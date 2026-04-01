@@ -7,6 +7,10 @@ import Stats from "./components/Stats";
 import ToggleSection from "./components/ToggleSection";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
+import Steps from "./components/Steps";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
+
 
 // Toast
 import { ToastContainer, toast } from "react-toastify";
@@ -69,6 +73,12 @@ function App() {
           clearCart={clearCart}
         />
       )}
+
+       {/* Extra Sections */}
+      <Steps />
+      <Pricing />
+      <Footer />
+
 
       {/* Toast */}
       <ToastContainer position="top-right" autoClose={2000} />
